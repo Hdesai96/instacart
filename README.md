@@ -1,54 +1,31 @@
-Instacart Market Basket Analysis
-Overview
+# Instacart Market Basket Analysis
 
-This project analyzes the Instacart Market Basket dataset to uncover patterns in customer purchasing behavior, reorder tendencies, and time-based ordering habits. The analysis focuses on transforming large transactional data into meaningful insights that can support decisions related to marketing, product placement, and inventory planning.
+A data analysis project using the Instacart Market Basket dataset to uncover customer purchasing behavior and reorder patterns from large-scale transactional data.
 
-Objectives
+## Quick Snapshot
+**Goal:** Turn raw order logs into actionable insights for product, marketing, and inventory decisions  
+**Data:** Orders, products, aisles, departments, and order-product history  
+**Output:** Trends in reorder behavior, peak ordering times, and product/category patterns
 
-The main goals of this analysis are to:
-Understand when customers place orders and how frequently they reorder
-Identify products and categories with high reorder rates
-Explore user-level ordering behavior over time
-Translate raw transaction data into actionable insights
+## What I Did
+- Cleaned and validated order/product tables to ensure correct joins and consistent metrics
+- Engineered features such as reorder rate, order frequency, and time-based behaviors
+- Performed EDA across users, products, aisles, and departments
+- Created visual summaries to communicate key trends and insights
 
-Dataset
+## Skills
+- Data cleaning and validation
+- Exploratory data analysis (EDA)
+- Feature engineering
+- Large dataset wrangling
+- Data storytelling
 
-The notebook uses the Instacart Market Basket dataset, which includes:
-Orders placed by users over time
-Product details mapped to aisles and departments
-Order-product relationships indicating purchase history
-Reorder indicators showing repeat purchases
+## Tools
+- Python (pandas, numpy, matplotlib)
+- Jupyter Notebook
 
-Analysis Workflow
+## Outcome
+Identified ordering and reorder patterns that highlight customer loyalty signals and high-repeat product categories, demonstrating an end-to-end analytics workflow from raw data to business-ready insights.
 
-The notebook follows a structured approach:
-Data loading and initial exploration
-Data cleaning and validation
-Feature engineering such as reorder rates and order frequency
-Exploratory data analysis using aggregations and visualizations
-Insight generation based on observed patterns
-
-Tools and Technologies
-
-Python
-pandas and numpy for data manipulation
-matplotlib for visualizations
-Jupyter Notebook for reproducible analysis
-
-Key Insights
-
-The analysis highlights trends such as peak ordering times, frequently reordered products, and customer loyalty patterns. These insights demonstrate how large-scale transactional data can be converted into clear, business-relevant stories.
-
-How to Run
-
-Clone the repository
-Install required Python libraries
-Open the notebook and run cells sequentially
-
-Notes
-
-Due to the size of the dataset, performance may vary depending on system resources. Sampling or column selection can be used to optimize runtime if needed.
-
-Author
-
-Harshni Desai
+## Author
+**Harshni Desai**
